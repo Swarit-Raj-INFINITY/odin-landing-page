@@ -22,3 +22,31 @@ a{
 #header{
     background-color: #1f2937;
 }
+#header-content{
+    padding: 100px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:30px;
+}
+#header-content-text{
+    max-width: 500px;
+    color: white;
+    font-size: larger;
+}
+#header-image{
+    width: 400px;
+    background-color: grey;
+    height: 200px;
+}
+h1{
+    margin-bottom: 15px;
+}
+button{
+    margin-top: 15px;
+    color: white;
+    background-color: #3882f6;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
